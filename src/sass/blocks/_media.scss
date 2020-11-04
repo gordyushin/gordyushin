@@ -1,0 +1,293 @@
+@media (max-width: 1199px) {
+    .container {
+        max-width: 940px;
+    }
+    .resume {
+        &__wrapper {
+            margin: 60px 0 0 0;
+        }
+    }
+    .scills {
+        &__wrapper {
+            gap: calc(90px / 4);
+        }
+    }
+    .contacts {
+        &__wrapper {
+            grid-template-columns: 400px 530px;
+           column-gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .about {
+        &__block {
+            grid-template-columns: 1fr 1fr;
+            column-gap: 40px;
+            grid-template-areas: 
+            'img title'
+            'work work';
+        }
+    }
+    .resume {
+        &__wrapper {
+            margin: 0 auto;
+            margin-top: 60px;
+        }
+    }
+    .scills {
+        &__wrapper {
+            row-gap: calc(40px / 3);
+            column-gap: calc(40px / 3);
+            justify-content: center;
+        }
+    }
+    .graph {
+        &__wrapper {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 45px;
+        }
+    }
+    .contacts {
+        &__img {
+            display: none;
+        }
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .title {
+        &_fz48 {
+            font-size: 28px;
+            line-height: 34px;
+        }
+        &_fz36 {
+            font-size: 26px;
+            line-height: 36px;
+        }
+    }
+    .promo {
+        padding-top: 150px;
+        background: url('/../img/Top_min.jpg') 59%/cover no-repeat;
+        &__gamburger {
+            left: 20px;
+        }
+    }
+    .about {
+        margin-top: 80px;
+    }
+    .resume {
+        margin-top: 80px;
+        &__wrapper {
+            margin: 0 auto;
+            margin-top: 40px;
+            column-gap: 20px;
+            ul {
+                &:before {
+                    content: '';
+                    top: -38px;
+                    height: calc(100% + 38px);
+                }
+            }
+            &-head {
+                position: relative;
+                padding-left: 23px;
+            }
+            &-title {
+                margin-top: 30px;
+                padding-left: 80px;
+                @include before_circle;
+                &:before {
+                    left: 23px;
+                    top: 5px;
+                }
+            }
+            &-img {
+                left: 39px;
+            }
+            &-subtitle {
+                padding-left: 80px;
+            }
+            &-descr {
+                padding-left: 23px;
+                &-more {
+                    width: calc(100% - 23px);
+                    margin: 10px 0 0 23px;
+                }
+            }
+            &-line {
+                &:before {
+                    content: '';
+                    width: 23px;
+                }
+            }
+        }
+    }
+    .divider {
+        margin-top: 15px;
+    }
+    .scills {
+        margin-top: 80px;
+        &__wrapper {
+            margin-top: 40px;
+        }
+    }
+    .graph {
+        margin-top: 60px;
+    }
+    .portfolio {
+        margin-top: 80px;
+    }
+    .carousel {
+        margin-top: 20px;
+        &__head {
+            margin-top: 20px;
+        }
+        &__iner {
+            margin-top: 20px;
+        }    
+    }
+    .poligraf__slider-prev, .poligraf__slider-next {
+        display: none;
+    }   
+    .offer__slider-prev, .offer__slider-next  {
+        display: none;
+    }   
+    .contacts {
+        margin-top: 80px;
+    }
+    footer {
+        margin: 50px 0 0 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .menu {
+        &__panel {
+            position: absolute;
+            width: 300px;
+            height: 100vh;
+            background-color: $hover;
+            top: 0;
+            left:0;
+            padding-top: 140px;
+            padding-left: 40px;
+            z-index: 11;
+        }
+    }
+    .about {
+        &__block {
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            'title'
+            'img'
+            'work';
+        }
+        &__work {
+            grid-template-columns: 1fr;
+        }
+        &_head {
+            text-align: center;     
+        }
+        &_divider {
+            margin: 15px auto 0 auto;
+        }
+        &_subtitle {
+            text-align: center;
+            padding-left: 12px;
+            @include before_circle;
+            &:before {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .resume {
+        &__wrapper {
+            grid-template-columns: 1fr;
+            &-block {
+                &:nth-child(2) {
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+    .scills {
+        &__wrapper {
+            justify-content: center;
+        }
+    }
+    .graph {
+        &__wrapper {
+            grid-template-columns: 275px;
+            justify-content: center;
+        }
+    }
+    .portfolio {
+        &__site {
+            padding: 20px 0;
+            margin-top: 20px 5px;
+        }
+    }
+    .slick-dots {
+        li {
+            margin: 10px 10px;
+        }
+    }
+    .contacts {
+        &__metod {
+            margin-top: 5px;
+            display: grid;
+            grid-template-columns: 120px auto;
+            row-gap: 10px;
+            align-items: center;
+        }
+        &__tel {
+            grid-column: 1/3;
+            a {
+                font-size: 16px;
+            }
+        }
+        &__form {
+            margin-top: 25px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            gap: 25px;
+            &-input {
+                height: 40px;
+            }
+            &-textarea {
+                grid-column: 1/2;
+                height: 120px;
+            }
+        }       
+        &__trigers {
+            grid-column: 1/2;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+        &__btn {
+            margin: 0 auto;
+        }
+        &__policy {
+            margin: 0 auto;
+        }
+    }
+}

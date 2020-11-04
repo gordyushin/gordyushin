@@ -1,0 +1,310 @@
+{
+  "site": [
+    {
+      "href": "https://food.gordyushin.ru/",
+      "src": "img/site/food.jpg",
+      "alt": "food",
+      "parent": ".offer__slider-inner",
+      "classes": "offer__slide"
+    },
+    {
+      "href": "https://childhood.gordyushin.ru/",
+      "src": "img/site/childhood.jpg",
+      "alt": "childhood",
+      "parent": ".offer__slider-inner",
+      "classes": "offer__slide"
+    },
+    {
+      "href": "",
+      "src": "img/site/puls.jpg",
+      "alt": "puls",
+      "parent": ".offer__slider-inner",
+      "classes": "offer__slide"
+    },
+    {
+      "href": "",
+      "src": "img/site/portfolio.jpg",
+      "alt": "portfolio",
+      "parent": ".offer__slider-inner",
+      "classes": "offer__slide"
+    }
+  ],
+  "poligraf": [
+    {
+      "href": "",
+      "src": "img/works/1_OBI_1_min.jpg",
+      "alt": "OBI",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/2_Lenta_BEER.jpg",
+      "alt": "Lenta",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/3_Billa_aprel.jpg",
+      "alt": "Billa",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/4_kniga_min.jpg",
+      "alt": "book",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/5_OBI_2_min.jpg",
+      "alt": "OBI",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/6_AiC.jpg",
+      "alt": "AiC",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/7_Lenta_Dacha_BBQ_min.jpg",
+      "alt": "Lenta",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/8_KiZ.jpg",
+      "alt": "KiZ",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/9_BILLA_Summer.jpg",
+      "alt": "BILLA",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/10_kniga_Prasident.jpg",
+      "alt": "book",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/11_Lenta_Life_style.jpg",
+      "alt": "Lenta",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/14_BS.jpg",
+      "alt": "bs",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/12_NiC.jpg",
+      "alt": "NiC",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    },
+    {
+      "href": "",
+      "src": "img/works/13_TiO.jpg",
+      "alt": "TiO",
+      "parent": ".poligraf__slider-inner",
+      "classes": "poligraf__slide"
+    }
+  ],
+  "scills": [
+    {
+      "name": "Photoshop",
+      "src": "icons/skills/photoshop-cc.svg",
+      "alt": "Photoshop",
+      "classes": ""
+    },
+    {
+      "name": "Illustrator",
+      "src": "icons/skills/adobe-illustrator-cc.svg",
+      "alt": "Illustrator",
+      "classes": ""
+    },
+    {
+      "name": "InDesign",
+      "src": "icons/skills/indesign-cc.svg",
+      "alt": "InDesign",
+      "classes": ""
+    },
+    {
+      "name": "CorelDRAW",
+      "src": "icons/skills/coreldraw-gs2019-2.svg",
+      "alt": "CorelDRAW",
+      "classes": ""
+    },
+    {
+      "name": "Figma",
+      "src": "icons/skills/figma-1.svg",
+      "alt": "Figma",
+      "classes": "scills__block-img-70"
+    },
+    {
+      "name": "Avocode",
+      "src": "icons/skills/avocode-inc-1.svg",
+      "alt": "Avocode",
+      "classes": "scills__block-img-80"
+    },
+    {
+      "name": "HTML5",
+      "src": "icons/skills/html5.svg",
+      "alt": "HTML5",
+      "classes": "scills__block-img-70"
+    },
+    {
+      "name": "CSS3",
+      "src": "icons/skills/css3.svg",
+      "alt": "CSS3",
+      "classes": "scills__block-img-70"
+    },
+    {
+      "name": "JavaScript",
+      "src": "icons/skills/js.svg",
+      "alt": "JavaScript",
+      "classes": ""
+    },
+    {
+      "name": "Bootstrap",
+      "src": "icons/skills/bootstrap-4.svg",
+      "alt": "Bootstrap",
+      "classes": ""
+    },
+    {
+      "name": "jQuery",
+      "src": "icons/skills/jquery.svg",
+      "alt": "jQuery",
+      "classes": "scills__block-img-110",
+      "classes": "scills__block-img-mt50"
+    },
+    {
+      "name": "Node.js",
+      "src": "icons/skills/node-js.svg",
+      "alt": "Node.js",
+      "classes": "scills__block-img-mt30"
+    },
+    {
+      "name": "SASS",
+      "src": "icons/skills/sass-1.svg",
+      "alt": "SASS",
+      "classes": ""
+    },
+    {
+      "name": "Vue.js",
+      "src": "icons/skills/vue-9.svg",
+      "alt": "Vue.js",
+      "classes": ""
+    },
+    {
+      "name": "Git",
+      "src": "icons/skills/git.svg",
+      "alt": "Git",
+      "classes": "scills__block-img-mt30"
+    },
+    {
+      "name": "webpack",
+      "src": "icons/skills/webpack-icon.svg",
+      "alt": "webpack",
+      "classes": ""
+    },
+    {
+      "name": "WordPress",
+      "src": "icons/skills/wordpress-blue.svg",
+      "alt": "WordPress",
+      "classes": ""
+    },
+    {
+      "name": "Open Server",
+      "src": "icons/skills/openserver-1.png",
+      "alt": "Open Server",
+      "classes": ""
+    }
+  ],
+  "edu": [
+    {
+      "href": "",
+      "src": "icons/experience/university.svg",
+      "alt": "university",
+      "parent": ".resume__wrapper-head-ul",
+      "head": "Тульский государственный университет",
+      "subhead": "Диплом инженера | Тула (1990-1996)",
+      "descr": "Факультет &laquoСистемы автоматического управления&raquo, специальность &laquoГироскопические приборы и системы ориентации, навигации и стабилизации&raquo."
+    },
+    {
+      "href": "https://cert.openedu.ru/downloads/d55f334700984b3491b55149e297f026/Certificate.pdf",
+      "src": "icons/experience/computer.png",
+      "alt": "university",
+      "parent": ".resume__wrapper-head-ul",
+      "head": "Национальная платформа открытого образования",
+      "subhead": "Онлайн курсы &laquoВЕБ-ПРОГРАММИРОВАНИЕ&raquo (2016)",
+      "descr": "Курс посвящен базовым технологиям веб-программирования – HTML и CSS. Результаты обучения - умения и навыки решения типовых задач клиентской веб-разработки, используя языки HTML и CSS (РО-1)."
+    },
+    {
+      "href": "https://www.udemy.com/certificate/UC-22def91b-e92d-4adf-aef6-f563f9f4be3d/",
+      "src": "icons/experience/computer.png",
+      "alt": "university",
+      "parent": ".resume__wrapper-head-ul",
+      "head": "Udemy",
+      "subhead": "Онлайн курсы &laquoWEB-разработчик 2020&raquo",
+      "descr": "Курс направлен на подробное обучение созданию сайтов, разработке визуальной части приложений, написанных на JavaScript, фреймворках и библиотеках, оптимизации работы сайтов."
+    },
+    {
+      "href": "",
+      "src": "icons/experience/university.svg",
+      "alt": "university",
+      "parent": ".resume__wrapper-head-ul",
+      "head": "ГБОУ Центр &laquoПрофессионал&raquo",
+      "subhead": "Диплом frontend-разработчика | Москва (2020)",
+      "descr": "Профессиоанльное образование по программе: &laquoFrontend-разработка&raquo.<br>Результат обучения: овладение знаниями, необходимыми для верстки в HTML и CSS, программирования на языке JavaScript, разработки приложений для Web 2.0."
+    }
+  ],
+  "work": [
+    {
+      "href": "1",
+      "src": "icons/experience/kisspng.png",
+      "alt": "book",
+      "parent": ".resume__wrapper-head-ul2",
+      "head": "Редакция журналов &laquoКипр&raquo и &laquoТорговое оборудование в России&raquo",
+      "subhead": "Дизайнер-верстальщик, начальник отдела верстки | Москва (1999-2008)",
+      "descr": "Дизайн и верстка ежемесячных журналов &laquoКипр&raquo и &laquoТорговое оборудование в России&raquo.<br>Подбор фотографий, цветокоррекция, ретушь.<br>Prepress<br>Работа с типографиями.<br>Создание буклетов, листовок.<br>Настройка и поддержка работы компьютеров, оборудования и сети.<br>Последние 3,5 года занимал должность начальника отдела верстки."
+    },
+    {
+      "href": "1",
+      "src": "icons/experience/kisspng.png",
+      "alt": "book",
+      "parent": ".resume__wrapper-head-ul2",
+      "head": "Издательство &laquoДеловой Мир&raquo",
+      "subhead": "Ведущий дизайнер-верстальщик, начальник отдела верстки | Москва (2008-2016)",
+      "descr": "Начинал свою деятельность в компании на должности ведущего дизайнера-верстальщика. В мои обязанности входили:<br>- разработка художественного оформления изданий;<br>- дизайн и верстка изданий;<br>- цветокоррекция, ретушь, отрисовка;<br>- сборка и компоновка изданий;<br>- предпечатная проверка сверстанных материалов;<br>- изготовление листовок, буклетов, плакатов.<br>Последние 4 года занимал должность начальника отдела верстки. В моем подчинении был штат из 16 человек. К обязанностям добавились:<br>- распределение работы между сотрудниками отдела;<br>- контроль сроков и качества выполнения работ на всех этапах;<br>- взаимодействие с типографиями (ведение заказов, выбор бумаги, приладка, контроль качества, работа с претензиями);<br>- настройка, обслуживание и работа с цветопробным комплексом.<br>В период работы в издательстве создавал следующие журналы: &laquoАвтомобили и цены&raquo, &laquoТуризм и отдых&raquo, &laquoНедвижимость и цены&raquo, &laquoОбустройство и ремонт&raquo, &laquoРесторан Technologies&raquo, &laquoКрасота и здоровье&raquo, &laquoРабота и зарплата&raquo, &laquoОбучение и карьера&raquo"
+    },
+    {
+      "href": "1",
+      "src": "icons/experience/kisspng.png",
+      "alt": "book",
+      "parent": ".resume__wrapper-head-ul2",
+      "head": "Издательский дом &laquoГастроном&raquo",
+      "subhead": "Старший дизайнер отдела спецпроектов | Москва (2016-2020)",
+      "descr": "Создание каталогов от разработки дизайн-проекта по ТЗ заказчика до верстки готового продукта и сдачи в типографию. Делал каталоги сети магазинов &laquoЛента&raquo, OBI, &laquoБилла&raquo, книги рецептов компаний Ролтон, Черкизово, Петелинка, Хохланд, Гербалайф и т.д.<br>Занимался разработкой тематического оформления торгового зала сети &laquoЛента&raquo (8 марта, Новый год, Пикник, Снова в школу и т.п.): плакаты, банеры, ценники, обмотки. Верстка в InDesign. Коллажирование, ретушь, цветокоррекция, работа с рекламными макетами, большими форматами и т.д. Препресс.<br>Работа с корпоративным сайтом."
+    }
+  ]
+}

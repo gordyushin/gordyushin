@@ -1,0 +1,31 @@
+.modal {
+    display: none;
+    position: fixed;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 10;
+    transition: all 1s;
+    background-color: $hover;
+    &_active {
+        display: block;
+    }
+    &__overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        opacity: 0.75;
+    }
+    &__close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+    &__thank {
+        padding: 30px;
+        text-align: center;
+        color: white;
+    }
+}

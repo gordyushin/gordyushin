@@ -1,0 +1,17 @@
+@keyframes top {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes moveSlides {
+    from {
+        left: 0;
+    }
+    to {
+        left: -50%;
+    }
+}

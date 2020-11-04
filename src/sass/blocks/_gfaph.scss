@@ -1,0 +1,37 @@
+.graph {
+    margin-top: 120px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 45px;
+    }
+    &__block {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: wrap;
+        &-title {
+            position: relative;
+            padding-left: 12px;
+            @include before_circle;
+        }
+        &-percent {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000000;
+        }
+        &-100 {
+            width: 100%;
+            height: 14px;
+            background: #E8E4DE;
+            border-radius: 4px;
+        }
+        &-line {
+            height: 14px;
+            background: $main-color;
+            border-radius: 4px;
+        }
+    }
+}

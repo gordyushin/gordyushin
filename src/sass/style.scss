@@ -1,0 +1,61 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap');
+
+@import 'base/animation';
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Scada';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: 0;
+}
+
+.head {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.subtitle {
+    position: relative;
+    text-align: center;
+    @include before_circle;
+    &:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.divider {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin: 25px auto 0 auto;
+}
+
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/promo';
+@import 'blocks/about';
+@import 'blocks/menu';
+@import 'blocks/resume';
+@import 'blocks/scills';
+@import 'blocks/gfaph';
+@import 'blocks/portfolio';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/arrow';
+@import 'blocks/carousel';
+@import 'blocks/media';

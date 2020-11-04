@@ -1,0 +1,50 @@
+.promo {
+    position: relative;
+    min-height: 100vh;
+    background: url('/../img/Top.jpg') 50%/cover no-repeat;
+    padding-top: 205px;
+    &__subtitle {
+        position: relative;
+        z-index: 2;
+        padding-left: 12px;
+        color: #fff;
+        @include before_circle;
+        animation-name: top;
+        animation-duration: 0.7s;
+    }
+    &__title {
+        margin-top: 14px;
+        animation-name: top;
+        animation-duration: 0.5s;
+    }
+    &__btn {
+        display: flex;
+        width: 270px;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    &__gamburger {
+        position: absolute;
+        height: 21px;
+        top: 30px;
+        left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: all 0.4s;
+        span {
+            width: 30px;
+            height: 3px;
+            background: #fff;
+        }
+        span.promo__gamburger_long {
+            width: 36px;
+        }
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+}
+
